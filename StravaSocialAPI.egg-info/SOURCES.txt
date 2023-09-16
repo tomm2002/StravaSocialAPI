@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+StravaSocialAPI/StravaSocialAPI.py
+StravaSocialAPI/__init__.py
+StravaSocialAPI.egg-info/PKG-INFO
+StravaSocialAPI.egg-info/SOURCES.txt
+StravaSocialAPI.egg-info/dependency_links.txt
+StravaSocialAPI.egg-info/requires.txt
+StravaSocialAPI.egg-info/top_level.txt
