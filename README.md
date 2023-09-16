@@ -23,16 +23,20 @@ Commands to:
 
 ## Basic Usage
 
+#### PIP INSTALL
+Run -> pip install <- in command window to install the lybrary
+
 #### IMPORT CLIENT
 ```
-from Strava_API import Client
+from StravaSocialAPI import Client
 cl = Client()
 ```
 Default attributes:
 
 * headless = False -> Turn to True if you want to hide the browser. BROKEN: It may not find some elements to interact!
 * sleep_for_page_to_load = 1 -> time on how long it waits for elements to be loaded. Used when calling (By.Xpath) since there is ussualy more than one element to be loaded.
-  
+
+ 
 #### LOGIN
 ```
 cl.login(email, password)
