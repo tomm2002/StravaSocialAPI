@@ -24,7 +24,9 @@ Commands to:
 ## Basic Usage
 
 #### PIP INSTALL
+```
 Run -> pip install StravaSocialAPI <- in command window to install the lybrary
+```
 
 #### IMPORT CLIENT
 ```
