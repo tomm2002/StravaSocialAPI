@@ -1,7 +1,7 @@
  # Strava Social Media API
 
 API for Strava, focusing on social media. It is using Selenium web-scraper. Use it to follow, unfollow, give kudos, comment, get a kudos list, download GPX files, and more.
-You can just import a Strava_API class or a Strava_Bot that uses the API to make some commands. Or just use Strava_Bot as an example for your personal bot
+Feel free to contribute!
 
 # Strava_API
 
