@@ -1,6 +1,9 @@
 Metadata-Version: 2.1
 Name: StravaSocialAPI
-Version: 0.0.2
+Version: 0.0.4
 Summary: API for Strava that interacts with the social media
+Home-page: https://github.com/tomm2002/StravaSocialAPI/tree/master
 Author: Tomo
 License-File: LICENSE.txt
+
+API for Strava, focusing on social media. It is using Selenium web-scraper. Use it to follow, unfollow, give kudos, comment, get a kudos list, download GPX files, and more.
