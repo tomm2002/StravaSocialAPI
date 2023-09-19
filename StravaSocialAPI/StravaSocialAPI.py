@@ -175,8 +175,8 @@ class Client:
         """
         
         self.driver.get('https://www.strava.com/login')
-        self.__insert_text('email', mail)
-        self.__insert_text('password', password)
+        self.__insert_text_by_id('email', mail)
+        self.__insert_text_by_id('password', password)
         self.__click_by_id('login-button')
 
         # Check for the error message
@@ -184,8 +184,9 @@ class Client:
         error_message = None
         try:
             error_message = self.driver.find_element(By.CLASS_NAME, 'alert-message').text
-            print("Error message!: ", error_message)
-            raise Exception("Read the error mentioned above")
+            if error_message:
+                print("Error message!: ", error_message)
+                return
         except:
             #no error message could be found
             print('Login succesfull! ') 
