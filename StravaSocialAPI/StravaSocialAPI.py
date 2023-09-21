@@ -137,7 +137,7 @@ class Client:
                 #Excit the while loop
                 break
            
-            if(len(athlete_ids >= max_limit_of_ids)): break
+            if(len(athlete_ids) >= max_limit_of_ids): break
                    
         print(f"Collected {len(athlete_ids)} IDs ")
         return athlete_ids
